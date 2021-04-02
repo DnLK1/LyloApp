@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    align-items: center;
+    grid-area: header;
+    background-color: var(--clear-blue);
+    box-shadow: 0 2px 4px var(--soft-black-shadow);
+    margin-bottom: 40px;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 20px;
+    cursor: pointer;
+}
+
+.teste {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__nav___list-items {
+    margin-right: 25px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.header__nav___list-items:last-child {
+    margin-right: 0;
+}
+
+.header__nav___list-items a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header__nav___list-items:hover {
+    opacity: 0.5;
+}
+
+.header__nav___list-items:last-child:hover {
+    opacity: 1;
+}
+
+.header__nav___list-items a.active {
+    padding-bottom: 0.8rem;
+    border-bottom: 4px solid var(--white);
+}
+
+.header__mobile-menu {
+    display: none;
+    height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .profile__section {
+        display: none;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__mobile-menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__mobile-menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    .header__nav {
+        display: flex;
+    }
+
+    .header__mobile-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    .header__nav {
+        display: flex;
+    }
+
+    .header__mobile-menu {
+        display: none;
+    }
+}

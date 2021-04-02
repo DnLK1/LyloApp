@@ -1,0 +1,135 @@
+/* Static Style Model for Future JS Based Feed */
+
+.feed__post {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 16px 16px var(--strong-black-shadow);
+    color: var(--white);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.feed__post___shadow {
+    background-image: var(--feed-image-shadow);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.feed__post___image {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px 8px 8px 8px;
+    z-index:-1;
+}
+
+.feed__post___container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    transform: translate(0, -50%);
+}
+
+.feed__post___info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.feed__post___profile-pic {
+    padding: 0.2rem;
+    border: 1px solid var(--soft-white-border);
+    border-radius: 100%;
+    width: 2.5rem;
+}
+
+.feed__post___description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.feed__post___description--profile-name {
+    font-family: var(--fredoka);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.feed__post___description--saloon {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.feed__post___review {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.feed__post___hr {
+    width: 70%;
+    opacity: 0.2;
+}
+
+.feed__post___review--comment {
+    margin-bottom: 2rem;
+}
+
+.feed__post___review--extras {
+    display: flex;
+    align-items: center;
+}
+
+.feed__post___review--heart-icon, .feed__post___review---comment-icon {
+    margin-right: 0.5rem;
+}
+
+.feed__post___review--like-section {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.feed__post___review--comment-section {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .feed__post___image {
+        height: 500px;
+    }
+
+    .feed__post___container {
+        top: 70%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .feed__post___image {
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .feed__post___image {
+        height: 600px;
+    }
+
+    .feed__post___container {
+        top: 75%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+}

@@ -1,0 +1,36 @@
+/* Section Below The Profile */
+
+.favorites {
+    position: relative;
+    z-index: 1;
+    background-color: var(--clear-blue);
+    border-radius: 0 0 30px 15px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px var(--soft-black-shadow);
+}
+
+.favorites__list {
+    color: var(--white);
+}
+
+.favorites__header {
+    margin-bottom: 1rem;
+}
+
+.favorites__list-item {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.favorites__pic {
+    width: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.favorites__saloon {
+    font-size: 12px;
+    font-weight: 400;
+}

@@ -1,0 +1,29 @@
+.trending {
+    margin-top: 1.5rem;
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px var(--soft-black-shadow);
+}
+
+.trending__header {
+    margin-bottom: 1rem;
+}
+
+.trending__list {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    cursor: pointer;;;
+}
+
+.trending__pic {
+    width: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.trending__saloon {
+    font-size: 12px;
+    font-weight: 400;
+}

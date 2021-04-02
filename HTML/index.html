@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lylo Home</title>
+    <link href="../CSS/reset.css" rel="stylesheet">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <link href="../CSS/Header/Header.css" rel="stylesheet">
+    <link href="../CSS/Header/searchBox.css" rel="stylesheet">
+    <link href="../CSS/Index/FeedProfile.css" rel="stylesheet">
+    <link href="../CSS/Index/Favorites.css" rel="stylesheet">
+    <link href="../CSS/Index/Trending.css" rel="stylesheet">
+    <link href="../CSS/Index/Feed.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Work+Sans:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__info">
+                <img class="header__logo" src="../Icons/lylo-logo.svg" alt="Logo da Lylo">
+            <nav>
+                <ul class="header__nav">
+                    
+                    <li class="header__nav___list-items"><a class="active" href="#">Feed</a></li>
+                    <li class="header__nav___list-items"><a href="#">Histórico</a></li>
+                    <li class="header__nav___list-items"><a href="#">Preferências</a></li>
+                    <li class="header__nav___list-items"><a href="#">Indique</a></li>
+                    <li class="header__nav___list-items"><a href="#">Sobre</a></li>
+                    <li class="header__nav___list-items">
+                        <div class="container__searchbox">
+                            <form class="searchbox">
+                                <input type="text" class="searchbox__input" placeholder="Busca...">
+                                <img class="searchbox__icon" src="../Icons/search.svg" alt="Botão de Busca">
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <img class="header__mobile-menu" src="../Icons/mobile-menu.svg" alt="mobile-menu">
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="home container">
+            <section class="profile__section">
+                <div class="profile">
+                    <img class="profile__pic" src="../Img/profile-pic.png" alt="Foto de Perfil">
+                    <p class="profile__name">Fernanda Borges</p>
+                    <p class="profile__user">@FerB92</p>
+                </div>
+                <div class="favorites">
+                    <ul class="favorites__list">
+                        <h2 class="favorites__header">Favoritos</h2>
+                        <li class="favorites__list-item">
+                            <img class="favorites__pic" src="../Img/profile-pic.png" alt="Favorito">
+                            <div class="favorites__description">
+                                <a class="favorites__name">Roberta Campos</a>
+                                <p class="favorites__saloon">Beauty Queen</p>
+                            </div>
+                        </li>
+                        <li class="favorites__list-item">
+                            <img class="favorites__pic" src="../Img/profile-pic.png" alt="Favorito">
+                            <div class="favorites__description">
+                                <a class="favorites__name">Roberta Campos</a>
+                                <p class="favorites__saloon">Beauty Queen</p>
+                            </div>
+                        </li>
+                        <li class="favorites__list-item">
+                            <img class="favorites__pic" src="../Img/profile-pic.png" alt="Favorito">
+                            <div class="favorites__description">
+                                <a class="favorites__name">Roberta Campos</a>
+                                <p class="favorites__saloon">Beauty Queen</p>
+                            </div>
+                        </li>
+                        <li class="favorites__list-item"><img class="favorites__pic" src="../Img/profile-pic.png" alt="Favorito">
+                            <div class="favorites__description">
+                                <a class="favorites__name">Roberta Campos</a>
+                                <p class="favorites__saloon">Beauty Queen</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <section class="trending">
+                    <ul>
+                        <h2 class="trending__header">#Trending</h2>
+                        <li class="trending__list">
+                            <img class="trending__pic" src="../Img/profile-pic.png" alt="Favorito">
+                            <div class="trending__description">
+                                <a class="trending__name">Roberta Campos</a>
+                                <p class="trending__saloon">Beauty Queen</p>
+                            </div>
+                        </li>
+                        <li class="trending__list">
+                            <img class="trending__pic" src="../Img/profile-pic.png" alt="Favorito">
+                            <div class="trending__description">
+                                <a class="trending__name">Roberta Campos</a>
+                                <p class="trending__saloon">Beauty Queen</p>
+                            </div>
+                        </li>
+                        <li class="trending__list">
+                            <img class="trending__pic" src="../Img/profile-pic.png" alt="Favorito">
+                            <div class="trending__description">
+                                <a class="trending__name">Roberta Campos</a>
+                                <p class="trending__saloon">Beauty Queen</p>
+                            </div>
+                        </li>
+                        <li class="trending__list"><img class="trending__pic" src="../Img/profile-pic.png" alt="Favorito">
+                            <div class="trending__description">
+                                <a class="trending__name">Roberta Campos</a>
+                                <p class="trending__saloon">Beauty Queen</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <ul class="feed__list">
+                    <li class="feed__post">
+                        <div class="feed__post___shadow">
+                            <img src="../Img/hair-1.jpg" alt="" class="feed__post___image">
+                            <div class="feed__post___container">
+                                <div class="feed__post___info">
+                                    <img class="feed__post___profile-pic" src="../Img/profile-pic.png" alt="Favorito">
+                                    <div class="feed__post___description">
+                                        <p class="feed__post___description--profile-name">Roberta Campos</p>
+                                        <p class="feed__post___description--saloon">Beauty Queen</p>
+                                    </div>
+                                </div>
+                                <div class="feed__post___review">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <hr class="feed__post___hr">
+                                </div>
+                                <p class="feed__post___review--comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem veniam aperiam dolorem placeat, veritatis porro magni enim accusantium sint aut iure ipsum velit rerum error dolor! Consequuntur, accusantium assumenda!</p>
+                                <div class="feed__post___review--extras">
+                                    <div class="feed__post___review--like-section">
+                                        <img src="../Icons/heart.svg" alt="Like Button" class="feed__post___review--heart-icon icon">
+                                        <p>999</p>
+                                    </div>
+                                    <div class="feed__post___review--comment-section">
+                                        <img src="../Icons/comment.svg" alt="Comment Button" class="feed__post___review---comment-icon icon">
+                                        <p>999</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feed__post">
+                        <div class="feed__post___shadow">
+                            <img src="../Img/nails-1.jpg" alt="" class="feed__post___image">
+                            <div class="feed__post___container">
+                                <div class="feed__post___info">
+                                    <img class="feed__post___profile-pic" src="../Img/profile-pic.png" alt="Favorito">
+                                    <div class="feed__post___description">
+                                        <p class="feed__post___description--profile-name">Roberta Campos</p>
+                                        <p class="feed__post___description--saloon">Beauty Queen</p>
+                                    </div>
+                                </div>
+                                <div class="feed__post___review">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <hr class="feed__post___hr">
+                                </div>
+                                <p class="feed__post___review--comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem veniam aperiam dolorem placeat, veritatis porro magni enim accusantium sint aut iure ipsum velit rerum error dolor! Consequuntur, accusantium assumenda!</p>
+                                <div class="feed__post___review--extras">
+                                    <div class="feed__post___review--like-section">
+                                        <img src="../Icons/heart.svg" alt="Like Button" class="feed__post___review--heart-icon icon">
+                                        <p>999</p>
+                                    </div>
+                                    <div class="feed__post___review--comment-section">
+                                        <img src="../Icons/comment.svg" alt="Comment Button" class="feed__post___review---comment-icon icon">
+                                        <p>999</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feed__post">
+                        <div class="feed__post___shadow">
+                            <img src="../Img/nails-2.jpg" alt="" class="feed__post___image">
+                            <div class="feed__post___container">
+                                <div class="feed__post___info">
+                                    <img class="feed__post___profile-pic" src="../Img/profile-pic.png" alt="Favorito">
+                                    <div class="feed__post___description">
+                                        <p class="feed__post___description--profile-name">Roberta Campos</p>
+                                        <p class="feed__post___description--saloon">Beauty Queen</p>
+                                    </div>
+                                </div>
+                                <div class="feed__post___review">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <img class="feed__post___review--stars icon" src="../Icons/star.svg" alt="Avaliação">
+                                    <hr class="feed__post___hr">
+                                </div>
+                                <p class="feed__post___review--comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem veniam aperiam dolorem placeat, veritatis porro magni enim accusantium sint aut iure ipsum velit rerum error dolor! Consequuntur, accusantium assumenda!</p>
+                                <div class="feed__post___review--extras">
+                                    <div class="feed__post___review--like-section">
+                                        <img src="../Icons/heart.svg" alt="Like Button" class="feed__post___review--heart-icon icon">
+                                        <p>999</p>
+                                    </div>
+                                    <div class="feed__post___review--comment-section">
+                                        <img src="../Icons/comment.svg" alt="Comment Button" class="feed__post___review---comment-icon icon">
+                                        <p>999</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+    </div>
+    </main>
+    <footer class="container"><p class="footer"></p></footer>
+</body>
+</html>
