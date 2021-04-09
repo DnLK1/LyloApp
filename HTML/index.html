@@ -13,16 +13,18 @@
     <link href="../CSS/Index/Favorites.css" rel="stylesheet">
     <link href="../CSS/Index/Trending.css" rel="stylesheet">
     <link href="../CSS/Index/Feed.css" rel="stylesheet">
+    <link href="../CSS/Index/SideMenu.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Work+Sans:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="overlay"></div>
     <header class="header">
         <div class="container header__info">
                 <img class="header__logo" src="../Icons/lylo-logo.svg" alt="Logo da Lylo">
             <nav>
                 <ul class="header__nav">
-                    <li class="header__nav___list-items"><a class="active" href="#">Feed</a></li>
+                    <li class="header__nav___list-items"><a class="active__nav" href="#">Feed</a></li>
                     <li class="header__nav___list-items"><a href="#">Histórico</a></li>
                     <li class="header__nav___list-items"><a href="#">Preferências</a></li>
                     <li class="header__nav___list-items"><a href="#">Indique</a></li>
@@ -37,9 +39,9 @@
                     </li>
                 </ul>
             </nav>
-            <img class="header__mobile-menu" src="../Icons/mobile-menu.svg" alt="mobile-menu">
+            <img class="header__mobile-menu" src="../Icons/mobile-menu.svg" alt="mobile-menu"> 
         </div>
-        </div>
+    </div>
     </header>
     <main>
         <div class="home container">
@@ -217,6 +219,30 @@
                     </li>
                 </ul>
             </section>
+    </div>
+    <div class="side-menu">
+        <div class="side-menu__profile">
+            <img class="side-menu__close-icon" src="../Icons/close.svg" alt="close menu"> 
+            <img class="side-menu__profile___pic" src="../Img/profile-pic.png" alt="Foto de Perfil">
+            <p class="side-menu__profile___name">Fernanda Borges</p>
+            <p class="side-menu__profile___user">@FerB92</p>
+        </div>        
+        <div class="side-menu__nav">
+            <ul class="side-menu__nav___list">
+                <li class="side-menu__nav___list-item">
+                        <a href="#" class="side-menu__nav___name">Histórico</a>
+                </li>
+                <li class="side-menu__nav___list-item">
+                        <a href="#" class="side-menu__nav___name">Preferências</a>
+                </li>
+                <li class="side-menu__nav___list-item">
+                        <a href="#" class="side-menu__nav___name">Indique</a>
+                </li>
+                <li class="side-menu__nav___list-item">
+                        <a href="#" class="side-menu__nav___name">Sobre</a>
+                </li>
+            </ul>
+        </div>
     </div>
     </main>
     <footer class="container"><p class="footer"></p></footer>

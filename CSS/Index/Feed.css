@@ -3,7 +3,6 @@
 .feed__post {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
     position: relative;
     margin-bottom: 2.5rem;
     box-shadow: 0 16px 16px var(--strong-black-shadow);
@@ -32,6 +31,7 @@
     top: 75%;
     left: 5%;
     transform: translate(0, -50%);
+    width: 90%;
 }
 
 .feed__post___info {
@@ -76,7 +76,7 @@
 }
 
 .feed__post___hr {
-    width: 70%;
+    width: 75%;
     opacity: 0.2;
 }
 
@@ -112,11 +112,21 @@
     .feed__post___container {
         top: 70%;
     }
+
+    .feed__post___hr {
+        width: 70%;
+        opacity: 0.2;
+    }
 }
 
 @media screen and (min-width: 769px) {
     .feed__post___image {
         height: 550px;
+    }
+
+    .feed__post___hr {
+        width: 70%;
+        opacity: 0.2;
     }
 }
 
@@ -128,8 +138,18 @@
     .feed__post___container {
         top: 75%;
     }
+
+    .feed__post___hr {
+        width: 75%;
+        opacity: 0.2;
+    }
 }
 
 @media screen and (min-width: 1201px) {
+
+    .feed__post___hr {
+        width: 80%;
+        opacity: 0.2;
+    }
 
 }

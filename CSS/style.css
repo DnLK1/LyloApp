@@ -51,6 +51,16 @@ h2 {
     text-align: center;
 }
 
+.overlay {
+    position: absolute;
+    background-color: var(--black);
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .home {
         display: grid;
