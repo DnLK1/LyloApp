@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Camada_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 27 25.9"
+   style="enable-background:new 0 0 27 25.9;"
+   xml:space="preserve"
+   sodipodi:docname="heartPressed.svg"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)"><metadata
+   id="metadata251"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>star</dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs249" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1360"
+   inkscape:window-height="704"
+   id="namedview247"
+   showgrid="false"
+   inkscape:zoom="15.015781"
+   inkscape:cx="1.4184235"
+   inkscape:cy="11.057934"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Camada_1" />
+<style
+   type="text/css"
+   id="style232">
+	.st0{fill:#5B5B59;}
+	.st1{fill:#FFFFFF;}
+</style>
+<title
+   id="title234">star</title>
+<g
+   id="g240">
+	<g
+   id="g238">
+		<path
+   class="st0"
+   d="M-21.6-63.6l-4.6,4.8l0.9,6.6c0.1,0.7-0.2,1.4-0.8,1.8c-0.6,0.4-1.3,0.5-2,0.2l-6-2.9l-6,2.9    c-0.3,0.1-0.5,0.2-0.8,0.2c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.4-0.9-1.1-0.8-1.8l0.9-6.6l-4.6-4.8c-0.7-0.8-0.7-2,0.1-2.7    c0.3-0.3,0.6-0.4,1-0.5l6.6-1.2l3.1-5.9c0.5-0.9,1.7-1.3,2.6-0.8c0.3,0.2,0.6,0.5,0.8,0.8l3.1,5.9l6.6,1.2c1,0.2,1.7,1.2,1.5,2.2    C-21.2-64.3-21.4-63.9-21.6-63.6L-21.6-63.6z"
+   id="path236" />
+	</g>
+</g>
+<path
+   class="st1"
+   d="M24.3,3.2c-3-3-7.8-3-10.8,0l-0.1,0.1l-0.1-0.1c-3-2.9-7.8-2.9-10.8,0.1c-2.9,3-2.9,7.7,0,10.6l10.1,10.6  c0.4,0.4,1.1,0.5,1.5,0c0,0,0,0,0,0l10-10.6C27.3,11,27.3,6.2,24.3,3.2C24.3,3.2,24.3,3.2,24.3,3.2z M22.7,12.5l-9.3,9.8l-9.3-9.8  c-2.1-2.1-2.1-5.6,0-7.7s5.6-2.1,7.7,0l0.8,0.8c0.4,0.4,1.1,0.4,1.5,0L15,4.7c2.1-2.1,5.6-2.1,7.7,0C24.9,6.9,24.9,10.3,22.7,12.5  L22.7,12.5z"
+   id="path242"
+   style="fill:#35d9d0;fill-opacity:1" />
+<path
+   class="st1"
+   d="M39.1,8.1c-0.1,0.7,0.4,1.3,1.1,1.4c0.2,0,0.5,0,0.7-0.1L46,7.3c1.3,0.4,2.7,0.5,4.1,0.5c7.2,0,13-4.7,13-10.5  s-5.8-10.5-13-10.5S37-8.6,37-2.7c0,2.4,1,4.7,2.7,6.4L39.1,8.1z M39.5-2.7c0-4.4,4.7-8,10.5-8s10.5,3.6,10.5,8s-4.7,8-10.5,8  c-1.3,0-2.6-0.2-3.8-0.5c-0.3-0.1-0.6-0.1-0.9,0l-3.5,1.5l0.4-2.9c0.1-0.4-0.1-0.8-0.4-1.1C40.3,0.9,39.5-0.9,39.5-2.7z"
+   id="path244" />
+<g
+   stroke="none"
+   stroke-width="1"
+   fill="none"
+   fill-rule="evenodd"
+   id="g8"
+   transform="matrix(1.4705138,0,0,1.4705138,-4.4419317,-4.8457342)"
+   style="fill:#35d9d0;fill-opacity:1"><path
+     d="m 17.938494,5.7357145 c 1.005963,0.646877 1.729911,1.6679118 1.968935,2.8153286 0.225267,1.0842258 0.03783,2.2299799 -0.545111,3.1844979 -0.388628,0.636345 -2.81472,3.047853 -7.278276,7.234524 l -0.0049,0.0038 c -0.04252,0.03265 -0.104352,0.03458 -0.1491,0.0066 l -0.01423,-0.01042 C 7.452346,14.783394 5.0263103,12.371886 4.6376822,11.735541 4.0547401,10.781023 3.8673044,9.6352689 4.0925711,8.5510431 4.3315946,7.4036263 5.0555434,6.3825915 6.0615054,5.7357145 7.1534472,5.032298 8.5480374,4.8244327 9.8119384,5.1503656 c 0.6482866,0.1662923 1.2467056,0.473933 1.7625826,0.886338 0.148971,0.119739 0.288691,0.2500027 0.425588,0.3827984 0.178493,-0.170733 0.320283,-0.2983325 0.42537,-0.3827984 0.515877,-0.412405 1.114296,-0.7200457 1.762583,-0.886338 1.263901,-0.3259329 2.658491,-0.1180676 3.750432,0.5853489 z"
+     fill="#000000"
+     id="path6"
+     style="fill:#35d9d0;fill-opacity:1" /></g></svg>

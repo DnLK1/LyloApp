@@ -89,7 +89,7 @@
     align-items: center;
 }
 
-.feed__post___review--heart-icon, .feed__post___review---comment-icon {
+.feed__post___review--unliked-icon, .feed__post___review--liked-icon, .feed__post___review---comment-icon {
     margin-right: 0.5rem;
 }
 
@@ -97,6 +97,10 @@
     display: flex;
     align-items: center;
     margin-right: 1rem;
+}
+
+.feed__post___review--liked-icon {
+    display: none;
 }
 
 .feed__post___review--comment-section {
