@@ -66,18 +66,34 @@
 
 .feed__post___review {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     margin-bottom: 1rem;
 }
 
 .icon {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 4%;
+    width: 4%;
+    fill: var(--star-grey-fill);
+    cursor: pointer;
+}
+
+.star-active, .star-active ~ * {
+    fill: var(--clear-blue)
+}
+
+.icon:hover, .icon:hover ~ * {
+    fill: var(--clear-blue)
 }
 
 .feed__post___hr {
     width: 75%;
     opacity: 0.2;
+}
+
+.review-icon {
+    height: 25px;
+    width: 25px;
 }
 
 .feed__post___review--comment {
@@ -97,6 +113,7 @@
     display: flex;
     align-items: center;
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .feed__post___review--liked-icon {
@@ -152,7 +169,7 @@
 @media screen and (min-width: 1201px) {
 
     .feed__post___hr {
-        width: 80%;
+        width: 75%;
         opacity: 0.2;
     }
 

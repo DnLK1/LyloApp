@@ -1,58 +1,27 @@
 //Side menu animation on mobile
 
-const sideMenu = $(".side-menu")
-const toggleSideMenu = $(".header__mobile-menu")
-const closeSideMenu = $(".side-menu__close-icon")
-const overlay = $(".overlay")
+import { toggleSideMenu } from "./components/toggleSideMenu.js"
 
-toggleSideMenu.click(function() {
-    sideMenu.show("slide")
-    overlay.show()
-    $('html, body').css({
-        overflow: 'hidden',
-        height: '100%'
-    });
-})
-
-closeSideMenu.click(function() {
-    sideMenu.hide("slide")
-    overlay.hide()
-    $('html, body').css({
-        overflow: 'auto',
-        height: 'auto'
-    });
-})
+toggleSideMenu()
 
 //Like button interaction
 
-const likeSection = $(".feed__post___review--like-section")
+export const likeSection = $(".feed__post___review--like-section")
 
-function switchLikedToggle() {
-    
-    const findLikeID = $(this).children("img").each(function() {
-        $(this).attr("id")
-    })
-
-    findLikeID.toggle()
-
-
-    const findLikedCount = $(this).children("p").text()
-    const findLikedStatus = $(this).children("p").attr("class")
-    const LikedStatus = $(this).children("p")
-
-    if (findLikedStatus == "unliked") {
-        const likedCountPlusOne = parseInt(findLikedCount) + 1
-
-        JSON.stringify($(this).children("p").text(likedCountPlusOne))
-
-        LikedStatus.toggleClass("unliked")
-    }else{
-        const likedCountMinusOne = parseInt(findLikedCount) - 1
-
-        JSON.stringify($(this).children("p").text(likedCountMinusOne))
-
-        LikedStatus.toggleClass("unliked")
-    }
-}
+import { switchLikedToggle } from "./components/switchLikeButton.js"
 
 likeSection.click(switchLikedToggle)
+
+//Star rating interaction
+
+const starRating = $(".feed__post___review--stars")
+
+starRating.click(function(){
+
+    if ($(this).siblings("svg").hasClass("star-active")) {
+        $(this).siblings("svg").removeClass("star-active")
+    }
+
+    $(this).toggleClass("star-active")
+
+})
